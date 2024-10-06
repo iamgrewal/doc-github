@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Repository Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script defer src="{{ url_for('static', filename='js/main.js') }}"></script>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">GitHub Repository Analyzer</h1>
+        <form id="repo-form">
+            <input type="url" id="repo-url" name="repo_url" placeholder="Enter GitHub Repository URL" required>
+            <button type="submit" id="analyze-button">Analyze</button>
+        </form>
+        <div id="result">
+            <h2 id="result-title">Analysis Result</h2>
+            <pre id="analysis-output"></pre>
+        </div>
+        <div id="gitlab-section" style="display: none;">
+            <h2>GitLab Repository</h2>
+            <p>The analyzed code has been pushed to: <a id="gitlab-link" href="#" target="_blank"></a></p>
+        </div>
+        <div id="readme-section">
+            <h2>README Content</h2>
+            <div id="readme-content"></div>
+        </div>
+    </div>
+    <div id="loading" style="display: none;">
+        <p>Analyzing repository... Please wait.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Sonar configuration
+sonar-project.properties
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Docker
+.dockerignore
+
+# Operating system files
+.DS_Store
+Thumbs.db

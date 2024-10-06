@@ -1,0 +1,122 @@
+/* Your CSS styles go here */
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    animation: fadeIn 2s;
+}
+
+#title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#repo-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#repo-url {
+    width: 70%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#analyze-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 2px solid #28a745;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#analyze-button:hover {
+    background-color: #218838;
+}
+
+#result {
+    display: none;
+}
+
+#result-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#analysis-output {
+    text-align: left;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+    #repo-url {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    #analyze-button {
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+    }
+
+    #repo-form {
+        flex-direction: column;
+    }
+}
+
+#gitlab-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+#gitlab-section a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+#gitlab-section a:hover {
+    text-decoration: underline;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    z-index: 1000;
+}
+
+#readme-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#readme-content {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
