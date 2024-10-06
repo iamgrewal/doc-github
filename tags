@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/jgrewal/project/doc-github/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#analysis-output	app/static/css/style.css	/^#analysis-output {$/;"	i
+#analyze-button	app/static/css/style.css	/^    #analyze-button {$/;"	i
+#analyze-button	app/static/css/style.css	/^#analyze-button {$/;"	i
+#analyze-button:hover	app/static/css/style.css	/^#analyze-button:hover {$/;"	i
+#container	app/static/css/style.css	/^#container {$/;"	i
+#gitlab-section	app/static/css/style.css	/^#gitlab-section {$/;"	i
+#gitlab-section a	app/static/css/style.css	/^#gitlab-section a {$/;"	s
+#gitlab-section a:hover	app/static/css/style.css	/^#gitlab-section a:hover {$/;"	s
+#loading	app/static/css/style.css	/^#loading {$/;"	i
+#readme-content	app/static/css/style.css	/^#readme-content {$/;"	i
+#readme-section	app/static/css/style.css	/^#readme-section {$/;"	i
+#repo-form	app/static/css/style.css	/^    #repo-form {$/;"	i
+#repo-form	app/static/css/style.css	/^#repo-form {$/;"	i
+#repo-url	app/static/css/style.css	/^    #repo-url {$/;"	i
+#repo-url	app/static/css/style.css	/^#repo-url {$/;"	i
+#result	app/static/css/style.css	/^#result {$/;"	i
+#result-title	app/static/css/style.css	/^#result-title {$/;"	i
+#title	app/static/css/style.css	/^#title {$/;"	i
+0	.vscode/launch.json	/^        {$/;"	o	array:configurations
+1	.vscode/launch.json	/^        {$/;"	o	array:configurations
+2	.vscode/launch.json	/^        {$/;"	o	array:configurations
+Analysis Result	app/templates/index.html	/^            <h2 id="result-title">Analysis Result<\/h2>$/;"	i
+AnonymousFunctionbc3cf0c80100	app/static/js/main.js	/^document.getElementById('repo-form').addEventListener('submit', async function(event) {$/;"	f
+GITHUB_TOKEN	app/app.py	/^GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')$/;"	v
+GITLAB_TOKEN	app/app.py	/^GITLAB_TOKEN = os.getenv('GITLAB_TOKEN')$/;"	v
+GITLAB_URL	app/app.py	/^GITLAB_URL = os.getenv('GITLAB_URL', 'https:\/\/gitlab.com')$/;"	v
+GitHub Repository Analyzer	app/templates/index.html	/^        <h1 id="title">GitHub Repository Analyzer<\/h1>$/;"	h
+GitLab Repository	app/templates/index.html	/^            <h2>GitLab Repository<\/h2>$/;"	i
+README Content	app/templates/index.html	/^            <h2>README Content<\/h2>$/;"	i
+SONAR_TOKEN	app/app.py	/^SONAR_TOKEN = os.getenv('SONAR_TOKEN')$/;"	v
+analysis-output	app/templates/index.html	/^            <pre id="analysis-output"><\/pre>$/;"	I
+analyze-button	app/templates/index.html	/^            <button type="submit" id="analyze-button">Analyze<\/button>$/;"	I
+app	app/app.py	/^app = Flask(__name__)$/;"	v
+check_sonarqube_availability	app/app.py	/^def check_sonarqube_availability(sonar_host_url):$/;"	f
+check_sonarscanner_availability	app/app.py	/^def check_sonarscanner_availability():$/;"	f
+condasync.Environment Path	.vscode/settings.json	/^    "condasync.Environment Path": "\/home\/jgrewal\/mambaforge\/envs\/doc-github"$/;"	s
+configurations	.vscode/launch.json	/^    "configurations": [$/;"	a
+console	.vscode/launch.json	/^            "console": "integratedTerminal"$/;"	s	object:configurations.0
+container	app/templates/index.html	/^    <div id="container">$/;"	I
+extract_readme	app/app.py	/^def extract_readme(repo_path):$/;"	f
+gitlab-link	app/templates/index.html	/^            <p>The analyzed code has been pushed to: <a id="gitlab-link" href="#" target="_blank/;"	I
+gitlab-section	app/templates/index.html	/^        <div id="gitlab-section" style="display: none;">$/;"	I
+index	app/app.py	/^def index():$/;"	f
+loading	app/templates/index.html	/^    <div id="loading" style="display: none;">$/;"	I
+name	.vscode/launch.json	/^            "name": "Attach to Chrome",$/;"	s	object:configurations.1
+name	.vscode/launch.json	/^            "name": "Launch Chrome against localhost",$/;"	s	object:configurations.2
+name	.vscode/launch.json	/^            "name": "Python Debugger: Current File",$/;"	s	object:configurations.0
+perform_code_analysis	app/app.py	/^def perform_code_analysis(repo_path, repo_name, sonar_host_url):$/;"	f
+port	.vscode/launch.json	/^            "port": 9222,$/;"	n	object:configurations.1
+process_repo	app/app.py	/^def process_repo():$/;"	f
+process_repository	app/app.py	/^def process_repository(repo, clone_directory, sonar_host_url, github_token):$/;"	f
+program	.vscode/launch.json	/^            "program": "${file}",$/;"	s	object:configurations.0
+push_to_gitlab	app/app.py	/^def push_to_gitlab(repo_path, repo_name, github_url):$/;"	f
+readme-content	app/templates/index.html	/^            <div id="readme-content"><\/div>$/;"	I
+readme-section	app/templates/index.html	/^        <div id="readme-section">$/;"	I
+repo-form	app/templates/index.html	/^        <form id="repo-form">$/;"	I
+repo-url	app/templates/index.html	/^            <input type="url" id="repo-url" name="repo_url" placeholder="Enter GitHub Repository/;"	I
+request	.vscode/launch.json	/^            "request": "attach",$/;"	s	object:configurations.1
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.0
+request	.vscode/launch.json	/^            "request": "launch",$/;"	s	object:configurations.2
+result	app/templates/index.html	/^        <div id="result">$/;"	I
+result-title	app/templates/index.html	/^            <h2 id="result-title">Analysis Result<\/h2>$/;"	I
+sonar.organization	sonar-project.properties	/^sonar.organization=iamgrewal$/;"	k
+sonar.projectKey	sonar-project.properties	/^sonar.projectKey=iamgrewal_doc-github$/;"	k
+title	app/templates/index.html	/^        <h1 id="title">GitHub Repository Analyzer<\/h1>$/;"	I
+type	.vscode/launch.json	/^            "type": "chrome",$/;"	s	object:configurations.1
+type	.vscode/launch.json	/^            "type": "chrome",$/;"	s	object:configurations.2
+type	.vscode/launch.json	/^            "type": "debugpy",$/;"	s	object:configurations.0
+url	.vscode/launch.json	/^            "url": "http:\/\/localhost:5000",$/;"	s	object:configurations.2
+webRoot	.vscode/launch.json	/^            "webRoot": "${workspaceFolder}"$/;"	s	object:configurations.1
+webRoot	.vscode/launch.json	/^            "webRoot": "${workspaceFolder}"$/;"	s	object:configurations.2
